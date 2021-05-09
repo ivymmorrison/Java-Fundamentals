@@ -4,13 +4,25 @@
 
 Initializing git folder
     1. In CodingNomads folder, create new folder git_practice
+    C:\Users\imorrison\Documents\CodingNomads
+    λ ls -al
+    total 8
+    drwxr-xr-x 1 CSCMWS+imorrison 4096 0 May  9 14:55 ./
+    drwxr-xr-x 1 CSCMWS+imorrison 4096 0 May  8 08:13 ../
+    drwxr-xr-x 1 CSCMWS+imorrison 4096 0 May  9 14:55 git_practice/
+    drwxr-xr-x 1 CSCMWS+imorrison 4096 0 May  6 19:52 labs/
+    drwxr-xr-x 1 CSCMWS+imorrison 4096 0 May  6 15:55 projects/
+    drwxr-xr-x 1 CSCMWS+imorrison 4096 0 May  6 15:55 resources/
     2. Inside git_practice:
         a. Initialize folder as a git folder (make sure you are in the correct folder when initializing) by running
             the "git init" command within the git_practice folder.
+            https://github.com/ivymmorrison/Git_Practice.git
         b. Make new file
+practice_1.txt
         c. Add file
         d. Commit file
         c. On Github, create new git_practice repository
+        https://github.com/ivymmorrison/Git_Practice.git
         d. Add this new GitHub repository as a new "remote" to your local Git repo. You can do this by using the command
             git remote add <ANY_NAME> <URL_OF_NEW_GITHUB_REPO.git>
         d. Push commit file to Github
@@ -22,13 +34,14 @@ Initializing git folder
 
 Adding a remote
     1. Create new personal repository on Github named "git_practice_2".
+    https://github.com/ivymmorrison/git_practice_2
     2. On local machine, add the new remote address to the same git repo you were working with in the previous section above
         (directions are provided on Github with new repo is created)
     3. Push local git repository to your Github using the new remote.
 
 Cloning repository from Github
-    1. Find a repository on Github
+    1. Find a repository on Github - Cloned CodingNomads Java_Fundamentals
     2. Clone repository to local machine
     3. Create new repository on Github
     4. Add new remote on local machine
-    5. Push to new Github repository
+    5. Push to new Github repository - Created Java_Fundamentals on my GitHub
