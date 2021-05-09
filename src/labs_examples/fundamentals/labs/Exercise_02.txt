@@ -40,8 +40,8 @@ Adding a remote
     3. Push local git repository to your Github using the new remote.
 
 Cloning repository from Github
-    1. Find a repository on Github - Cloned CodingNomads Java_Fundamentals
+    1. Find a repository on Github - Java
     2. Clone repository to local machine
     3. Create new repository on Github
     4. Add new remote on local machine
-    5. Push to new Github repository - Created Java_Fundamentals on my GitHub
+    5. Push to new Github repository - Created Java
