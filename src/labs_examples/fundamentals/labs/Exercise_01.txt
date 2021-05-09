@@ -2,23 +2,83 @@ Fundamentals Exercise 1: CLI
      Perform the following tasks using the CLI and copy and paste the commands and results below
 
      1. Navigate to CodingNomads folder (or the space you have create for this project)
-     2. Create new folder Terminal_testing
+     2. Create new folder Terminal_testing - mkdir
+     C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs
      3. Inside of folder Terminal_testing,
          a. create 3 new .txt files all with different names
          b. print the directory path
+         λ pwd
+         C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing
          c. list the contents of the folder
+         λ ls -al
+         total 11
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:17 ./
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:18 ../
+         -rw-r--r-- 1 CSCMWS+imorrison 4096 17 May  9 12:14 test1.txt
+         -rw-r--r-- 1 CSCMWS+imorrison 4096 31 May  9 12:17 test2.txt
+         -rw-r--r-- 1 CSCMWS+imorrison 4096 18 May  9 12:16 test3.txt
      5. Inside of folder Terminal_testing, create a new folder
+     mkdir Folder_1
      6. Copy a file from Terminal_testing to the new folder
+     cp C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing\test1.txt C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing\Folder_1
      7. Move a different file from Terminal_testing to the new folder
+     mv C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing\test3.txt C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing\Folder_1
+     C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing\Folder_1 (master -> ivy)
+     λ ls -al
+     total 6
+     drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:28 ./
+     drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:28 ../
+     -rw-r--r-- 1 CSCMWS+imorrison 4096 17 May  9 12:26 test1.txt
+     -rw-r--r-- 1 CSCMWS+imorrison 4096 18 May  9 12:16 test3.txt
+
      8. Demonstrate removing:
          a. A file
+         rm test1.txt
+
+         λ ls -al
+         total 5
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:35 ./
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:28 ../
+         -rw-r--r-- 1 CSCMWS+imorrison 4096 18 May  9 12:16 test3.txt
          b. A folder
+         total 5
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:37 ./
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:28 ../
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:37 Folder_2/
+         -rw-r--r-- 1 CSCMWS+imorrison 4096 18 May  9 12:16 test3.txt
+
+         rm -r Folder_2
+
+         λ ls -al
+         total 5
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:38 ./
+         drwxr-xr-x 1 CSCMWS+imorrison 4096  0 May  9 12:28 ../
+         -rw-r--r-- 1 CSCMWS+imorrison 4096 18 May  9 12:16 test3.txt
      9. CHALLENGE:
          a. Use $ vim to write some text inside a file
+         vim test3.txt
+         i
+         enter text "editing file"
+         :wq
          b. Use $ cat print contents of file
-         c. Use $ grep to search for a word inside file
+          cat test3.txt
+         Test Text file 3!
 
+         Editing the file.
+
+         c. Use $ grep to search for a word inside file
+ find "test" *
+
+---------- .TEST3.TXT.SWP
+~CSCMWS+imorrison/Documents/CodingNomads/labs/online-java-fundamentals/src/labs_examples/fundamentals/labs/Terminal_testing/Folder_1/test3.txt
+
+---------- FIND
+
+---------- TEST3.TXT
 Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads
+
+ pwd
+C:\Users\imorrison\Documents\CodingNomads\labs\online-java-fundamentals\src\labs_examples\fundamentals\labs\Terminal_testing\Folder_1
 
