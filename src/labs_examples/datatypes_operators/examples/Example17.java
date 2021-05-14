@@ -1,6 +1,6 @@
 package labs_examples.datatypes_operators.examples;
 
-// Demonstrate casting.
+// Demonstrate labs_examples.fundamentals.examples.casting.
 class CastDemo {
     public static void main(String args[]) {
         double x, y;

@@ -1,4 +1,4 @@
-package Variables;
+package labs_examples.fundamentals.examples.Variables;
 
 /**
  * *Created by imorrison - student at codingnomads

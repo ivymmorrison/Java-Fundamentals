@@ -8,11 +8,11 @@ public class WideningConversions
     public static void main(String[] args)
     {
         int i = 100;
-        //convert int "i" to long "l" - no explicit type casting required
+        //convert int "i" to long "l" - no explicit type labs_examples.fundamentals.examples.casting required
         long l = i;
-        //convert long "l" to float "f" - no explicit type casting required
+        //convert long "l" to float "f" - no explicit type labs_examples.fundamentals.examples.casting required
         float f = l;
-        // convert float "f" to a double "x" - no explicit type casting required
+        // convert float "f" to a double "x" - no explicit type labs_examples.fundamentals.examples.casting required
         double x = f;
 
         System.out.println("Int value "+i);

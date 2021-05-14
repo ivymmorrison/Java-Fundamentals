@@ -18,9 +18,9 @@ public class NarrowingConversions {
         // more examples
         double d = 100.04;
         System.out.println("d = " + d);
-        // cast double "d" to long "l" - explicit type casting required
+        // cast double "d" to long "l" - explicit type labs_examples.fundamentals.examples.casting required
         long l = (long) d;
-        // cast long "l" to int "i" - explicit type casting required
+        // cast long "l" to int "i" - explicit type labs_examples.fundamentals.examples.casting required
         int i = (int) l;
 
         System.out.println("Long value " + l);

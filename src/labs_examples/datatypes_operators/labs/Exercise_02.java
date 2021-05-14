@@ -1,7 +1,7 @@
 package labs_examples.datatypes_operators.labs;
 
 /**
- * Data Types and Operators Exercise 2: Type conversion and casting
+ * Data Types and Operators Exercise 2: Type conversion and labs_examples.fundamentals.examples.casting
  *
  *      Write the necessary code to demonstrate type conversion:
  *
@@ -10,7 +10,7 @@ package labs_examples.datatypes_operators.labs;
  *      2. Declare a double and set it equal to the int
  *      3. Print out the double
  *
- *      Narrowing (with casting):
+ *      Narrowing (with labs_examples.fundamentals.examples.casting):
  *      1. Declare and initialize a new double with the value 10.5
  *      2. Declare a new int and set it equal to the double (make sure to cast the double to an int)
  *      3. Print out the int
