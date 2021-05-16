@@ -17,13 +17,22 @@ package labs_examples.datatypes_operators.labs;
  *
  *      Notice how each type is converted. In which direction is information lost?
  *
- */
+ *      Created by ivy morrison student at Coding Nomads
+ **/
 
 public class Exercise_02 {
 
     public static void main(String[] args) {
 
         // write code here
+        // widening
+        int a = 10;
+        double d = a;
+        System.out.println("Double is : " + d);
 
+        //Narrowing
+        double dd = 10.5;
+        int b = (int)dd;
+        System.out.println("double cast to an int is:" + b);
     }
 }
