@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Exercise_01 {
 
-    public static void main(String[] args) {
+    public static int main(String[] args) {
 
         // create scanner
         Scanner scanner = new Scanner(System.in);
@@ -24,6 +24,14 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
+        { while(number <=1000000000)
+            if (number / 2 == 0) { // handles both 1 and 0 as an even number of digits
 
+                System.out.println("Odd number : " + number);
+           }
+           else if (number / 2 >= 1) {
+               System.out.println("Even number : " + number);
+           }
+        }
     }
-}
+
