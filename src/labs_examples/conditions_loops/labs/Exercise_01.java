@@ -10,11 +10,13 @@ import java.util.Scanner;
  *      or even using an if statement. Print the result.
  *
  *      NOTE: We will be using the Scanner class to collect user input. This is demonstrated below.
+ *
+ *      Ivy Morrison - Codecademy Student - 22/06/2021
  */
 
 public class Exercise_01 {
 
-    public static int main(String[] args) {
+    public static void main(String[] args) {
 
         // create scanner
         Scanner scanner = new Scanner(System.in);
@@ -24,14 +26,19 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
-        { while(number <=1000000000)
-            if (number / 2 == 0) { // handles both 1 and 0 as an even number of digits
-
+            if (number < 0) {
+                System.out.println("Please enter a larger number ");
+            }
+            else if (number > 1000000000) {
+                System.out.println("Please enter a smaller number ");
+            }
+            else  if ((number % 2) != 0) { // is it an odd number
                 System.out.println("Odd number : " + number);
-           }
-           else if (number / 2 >= 1) {
-               System.out.println("Even number : " + number);
-           }
+            }
+            else {
+                System.out.println("Even number : " + number);
+            }
+
         }
     }
 
