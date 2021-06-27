@@ -32,13 +32,16 @@ public class Exercise_01 {
             else if (number > 1000000000) {
                 System.out.println("Please enter a smaller number ");
             }
-            else  if ((number % 2) != 0) { // is it an odd number
-                System.out.println("Odd number : " + number);
-            }
             else {
-                System.out.println("Even number : " + number);
+                if ((number % 2) != 0) { // is it an odd number
+                    System.out.println("Odd number : " + number);
+                }
+                else {
+                    System.out.println("Even number : " + number);
+                }
             }
-
-        }
     }
+
+}
+
 
