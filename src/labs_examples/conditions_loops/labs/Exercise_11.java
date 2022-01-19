@@ -19,8 +19,68 @@ package labs_examples.conditions_loops.labs;
  *      9 |18|27|36|45|54|63|72|81|90 |
  *      10|20|30|40|50|60|70|80|90|100|
  *
+ *  Ivy Morrison Coding Nomad Student 20/01/2022
  */
-
+import java.util.Scanner;
 public class Exercise_11 {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int num,range;
+        System.out.println("Enter the number to multiply by: ");
+        num=sc.nextInt();
+        System.out.println("Enter the range: ");
+        range=sc.nextInt();
+        for(int i=1; i<=range; i++){
+            for(int j=1; j<=10;j++) {
+            System.out.print(i * j + " |");
+                }
+                System.out.println();
+            // "count + 1" means that the count will be increased by one with each loop
+            // Print blocks of 10 each line
+ /**           switch (i) {
+                case 1:
+                    System.out.print(i + " |");
+                continue;
+                case 2:
+                    System.out.print(i + " |");
+                case 3:
+                    System.out.print(i + " |");
+                    continue;
+                case 4:
+                    System.out.print(i + " |");
+                    continue;
+                case 5:
+                    System.out.print(i + " |");
+                    continue;
+                case 6:
+                    System.out.print(i + " |");
+                    continue;
+                case 7:
+                    System.out.print(i + " |");
+                    continue;
+                case 8:
+                    System.out.print(i + " |");
+                    continue;
+                case 9:
+                    System.out.print(i + " |");
+                    continue;
+                case 10:
+                    System.out.println(i + " |");
+                    continue;
+                case 11:
+                    System.out.print(count + " |");
+                    continue;
+                case 12:
+                    System.out.print(count + " |");
+                    continue;
+                case 13:
+                    System.out.print(count + " |");
+w                    break;
+
+*/
+
+        }
+    }
 
 }

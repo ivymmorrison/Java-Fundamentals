@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 
  *      Bonus Tricky Challenge: Use a "nested-if" statement.
  *
- *      Ivy Morrison - student CodingNomads
+ *      Ivy Morrison - student CodingNomads 06/2021
  */
 
 public class Exercise_02 {

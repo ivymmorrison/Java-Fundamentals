@@ -4,7 +4,7 @@ package labs_examples.conditions_loops.labs;
  * Conditions and Loops Exercise 4: Even numbers
  *
  *      Using a "for-loop", print out all even numbers from 1-100.
- * Ivy Morrison Coding Nomad Student
+ * Ivy Morrison Coding Nomad Student 06/2021
  */
 
 public class Exercise_04 {

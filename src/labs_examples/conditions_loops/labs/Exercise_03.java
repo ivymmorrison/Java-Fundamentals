@@ -20,11 +20,7 @@ public class Exercise_03 {
         System.out.print("Enter a number between 1 and 12 for the month of the year. e.g. 1 for January, 2 for February,......  :  ");
         // 3) assign input to variable as int
         int number = scanner.nextInt();
-        if (number < 0) {
-            System.out.println("Please enter a larger number ");
-        } else if (number > 12) {
-            System.out.println("Please enter a smaller number ");
-        } else {
+
             switch (number) {
                 case 1: System.out.println("The month is January"); break;
                 case 2: System.out.println("The month is February"); break;
@@ -38,8 +34,9 @@ public class Exercise_03 {
                 case 10: System.out.println("The month is October"); break;
                 case 11: System.out.println("The month is November"); break;
                 case 12: System.out.println("The month is December"); break;
+                default: System.out.println("Please enter a number between 1 and 12!"); break;
             }
         }
 
-    }
+
 }

@@ -16,7 +16,7 @@ import java.util.Scanner;
  *      height = f(rep)=f(2/h*i)
  *      The sum is: 5050
  *      The average is: 50.5
- *
+ * Ivy Morrison Coding Nomad Student 01/2022
  *
  */
 
@@ -36,8 +36,11 @@ public class Exercise_05 {
         int count = 0;
         int i = low;
         double average = Double.NaN;
-        for(sum+= i;i <= high; count ++) {
+         {
             // 4. Within the for loop add the value of high and low to get the sum
+             for(count = low;count <= high; count++);
+            // Found direct formula sum=(high\2)*(1+high)
+             sum = high*(1+high)/2;
             // 5. Print out the value of j
             System.out.println("The sum is: " + sum);
             average = sum / count;
