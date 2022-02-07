@@ -1,12 +1,12 @@
 package labs_examples.arrays.examples;
 
-import java.util.*;
+import java.util.ArrayList;
 
 class ArrayListExample {
     public static void main(String args[]) {
 
         // create array list of String
-        ArrayList<String> obj = new ArrayList<String>();
+        ArrayList obj = new ArrayList<String>();
 
         // add items to the array list
         obj.add("Ryan");
