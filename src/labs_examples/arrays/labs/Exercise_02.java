@@ -8,52 +8,25 @@ package labs_examples.arrays.labs;
  *  Ivy Morrison Coding Nomads student 17/02/2022
  */
 import java.util.Scanner;
+import java.util.Arrays;
 public class Exercise_02 {
 
 
-        // Linear-search function to find the index of an element
-        public static int findIndex(int arr[], int t)
-        {
+    public static void main(String[] args) {
+        int[] IndexNum = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int index=0;
 
-            // if array is Null
-            if (arr == null) {
-                return -1;
-            }
+        Scanner input = new Scanner(System.in);
 
-            // find length of array
-            int len = arr.length;
-            int i = 0;
+        System.out.println("Enter number between 1-10:");
 
-            // traverse in the array
-            while (i < len) {
-
-                // if the i-th element is t
-                // then return the index
-                if (arr[i] == t) {
-                    return i;
+        for(int i=0; i< IndexNum.length;i++){
+            if (IndexNum[i]==input.nextInt()) {
+                index = i;
                 }
-                else {
-                    i = i + 1;
-                }
+
             }
-            return -1;
-        }
-
-        // Driver Code
-        public static void main(String[] args)
-        {
-            int[] my_array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            int num;
-            int idx;
-            for(int i = 0; i <1; i++) {
-                System.out.println("Enter a number from 1-10: ");
-                Scanner keyboard = new Scanner(System.in);
-                num = keyboard.nextInt();
-                idx = my_array.indexOf(num);
-            }
-
-            // find the index of number entered
-            System.out.println("Index of element " +num +" is: " + idx);
-
-        }
+        System.out.println("The index is: " +index);
+            
     }
+}
